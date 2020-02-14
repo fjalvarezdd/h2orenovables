@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/h2o/public_html/new
-    - /bin/cp -R public $DEPLOYPATH
+    - export DEPLOYPATH=/home/h2o/public_html/new/
+    - /bin/cp -a public/. $DEPLOYPATH
